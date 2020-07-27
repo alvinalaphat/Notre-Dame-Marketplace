@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453A3F1A244105AD005F933A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F19244105AD005F933A /* AppDelegate.swift */; };
+		453A3F1C244105AD005F933A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F1B244105AD005F933A /* SceneDelegate.swift */; };
+		453A3F1E244105AD005F933A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F1D244105AD005F933A /* FirstViewController.swift */; };
+		453A3F20244105AD005F933A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F1F244105AD005F933A /* SecondViewController.swift */; };
+		453A3F25244105B1005F933A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453A3F24244105B1005F933A /* Assets.xcassets */; };
+		453A3F3024410635005F933A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453A3F2F24410635005F933A /* Main.storyboard */; };
+		453A3F322441066C005F933A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453A3F312441066C005F933A /* LaunchScreen.storyboard */; };
+		453A3F34244133E2005F933A /* ZerothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F33244133E2005F933A /* ZerothViewController.swift */; };
+		453A3F362441340A005F933A /* SellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F352441340A005F933A /* SellViewController.swift */; };
+		453A3F3824413412005F933A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F3724413412005F933A /* RegisterViewController.swift */; };
+		453A3F3A2441341C005F933A /* PostItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F392441341B005F933A /* PostItemController.swift */; };
+		453A3F3C2441342F005F933A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F3B2441342F005F933A /* MessageViewController.swift */; };
+		453A3F3E24413437005F933A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F3D24413437005F933A /* LoginViewController.swift */; };
+		453A3F4024413440005F933A /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F3F24413440005F933A /* ItemController.swift */; };
+		453A3F4224413447005F933A /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F4124413447005F933A /* BuyViewController.swift */; };
+		453A3F4F24413606005F933A /* SwiftProtobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 453A3F4A24413606005F933A /* SwiftProtobuf-dummy.m */; };
+		453A3F5024413606005F933A /* SwiftProtobuf.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 453A3F4C24413606005F933A /* SwiftProtobuf.xcconfig */; };
+		B64B05076DB17B551642EFE0 /* Pods_Notre_Dame_Marketplace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1981A4A66E7181244211058 /* Pods_Notre_Dame_Marketplace.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A7A1E8AE129D094DE661EE5 /* Pods-Notre Dame Marketplace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notre Dame Marketplace.debug.xcconfig"; path = "Target Support Files/Pods-Notre Dame Marketplace/Pods-Notre Dame Marketplace.debug.xcconfig"; sourceTree = "<group>"; };
+		453A3F16244105AD005F933A /* Notre Dame Marketplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notre Dame Marketplace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453A3F19244105AD005F933A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		453A3F1B244105AD005F933A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		453A3F1D244105AD005F933A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		453A3F1F244105AD005F933A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		453A3F24244105B1005F933A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		453A3F29244105B1005F933A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453A3F2F24410635005F933A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		453A3F312441066C005F933A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		453A3F33244133E2005F933A /* ZerothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZerothViewController.swift; sourceTree = "<group>"; };
+		453A3F352441340A005F933A /* SellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellViewController.swift; sourceTree = "<group>"; };
+		453A3F3724413412005F933A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		453A3F392441341B005F933A /* PostItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostItemController.swift; sourceTree = "<group>"; };
+		453A3F3B2441342F005F933A /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		453A3F3D24413437005F933A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		453A3F3F24413440005F933A /* ItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		453A3F4124413447005F933A /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		453A3F4924413605005F933A /* Notre Dame Marketplace-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notre Dame Marketplace-Bridging-Header.h"; sourceTree = "<group>"; };
+		453A3F4A24413606005F933A /* SwiftProtobuf-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwiftProtobuf-dummy.m"; sourceTree = "<group>"; };
+		453A3F4B24413606005F933A /* SwiftProtobuf-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftProtobuf-prefix.pch"; sourceTree = "<group>"; };
+		453A3F4C24413606005F933A /* SwiftProtobuf.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SwiftProtobuf.xcconfig; sourceTree = "<group>"; };
+		453A3F4D24413606005F933A /* SwiftProtobuf.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SwiftProtobuf.modulemap; sourceTree = "<group>"; };
+		453A3F4E24413606005F933A /* SwiftProtobuf-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftProtobuf-umbrella.h"; sourceTree = "<group>"; };
+		48F9CBCFC7D1BBD9E53E72E7 /* Pods-Notre Dame Marketplace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notre Dame Marketplace.release.xcconfig"; path = "Target Support Files/Pods-Notre Dame Marketplace/Pods-Notre Dame Marketplace.release.xcconfig"; sourceTree = "<group>"; };
+		F1981A4A66E7181244211058 /* Pods_Notre_Dame_Marketplace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notre_Dame_Marketplace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453A3F13244105AD005F933A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64B05076DB17B551642EFE0 /* Pods_Notre_Dame_Marketplace.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453A3F0D244105AD005F933A = {
+			isa = PBXGroup;
+			children = (
+				453A3F17244105AD005F933A /* Products */,
+				453A3F18244105AD005F933A /* Notre Dame Marketplace */,
+				56A9B167C9F9E8259AC650CF /* Pods */,
+				F9C2B4E6A5144B201644CEEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		453A3F17244105AD005F933A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453A3F16244105AD005F933A /* Notre Dame Marketplace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453A3F18244105AD005F933A /* Notre Dame Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				453A3F19244105AD005F933A /* AppDelegate.swift */,
+				453A3F5224413725005F933A /* SwiftProtoBuf */,
+				453A3F51244136EE005F933A /* View Controllers */,
+				453A3F24244105B1005F933A /* Assets.xcassets */,
+				453A3F29244105B1005F933A /* Info.plist */,
+				453A3F4924413605005F933A /* Notre Dame Marketplace-Bridging-Header.h */,
+				453A3F1B244105AD005F933A /* SceneDelegate.swift */,
+				453A3F312441066C005F933A /* LaunchScreen.storyboard */,
+				453A3F2F24410635005F933A /* Main.storyboard */,
+			);
+			path = "Notre Dame Marketplace";
+			sourceTree = "<group>";
+		};
+		453A3F51244136EE005F933A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				453A3F1D244105AD005F933A /* FirstViewController.swift */,
+				453A3F3F24413440005F933A /* ItemController.swift */,
+				453A3F1F244105AD005F933A /* SecondViewController.swift */,
+				453A3F3D24413437005F933A /* LoginViewController.swift */,
+				453A3F33244133E2005F933A /* ZerothViewController.swift */,
+				453A3F4124413447005F933A /* BuyViewController.swift */,
+				453A3F3B2441342F005F933A /* MessageViewController.swift */,
+				453A3F3724413412005F933A /* RegisterViewController.swift */,
+				453A3F392441341B005F933A /* PostItemController.swift */,
+				453A3F352441340A005F933A /* SellViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		453A3F5224413725005F933A /* SwiftProtoBuf */ = {
+			isa = PBXGroup;
+			children = (
+				453A3F4A24413606005F933A /* SwiftProtobuf-dummy.m */,
+				453A3F4B24413606005F933A /* SwiftProtobuf-prefix.pch */,
+				453A3F4E24413606005F933A /* SwiftProtobuf-umbrella.h */,
+				453A3F4D24413606005F933A /* SwiftProtobuf.modulemap */,
+				453A3F4C24413606005F933A /* SwiftProtobuf.xcconfig */,
+			);
+			path = SwiftProtoBuf;
+			sourceTree = "<group>";
+		};
+		56A9B167C9F9E8259AC650CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A7A1E8AE129D094DE661EE5 /* Pods-Notre Dame Marketplace.debug.xcconfig */,
+				48F9CBCFC7D1BBD9E53E72E7 /* Pods-Notre Dame Marketplace.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9C2B4E6A5144B201644CEEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1981A4A66E7181244211058 /* Pods_Notre_Dame_Marketplace.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		453A3F15244105AD005F933A /* Notre Dame Marketplace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453A3F2C244105B1005F933A /* Build configuration list for PBXNativeTarget "Notre Dame Marketplace" */;
+			buildPhases = (
+				98043E883C629605CDF93022 /* [CP] Check Pods Manifest.lock */,
+				453A3F12244105AD005F933A /* Sources */,
+				453A3F13244105AD005F933A /* Frameworks */,
+				453A3F14244105AD005F933A /* Resources */,
+				97BF7BDE2B8ACCB0592DA9BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notre Dame Marketplace";
+			productName = "Notre Dame Marketplace";
+			productReference = 453A3F16244105AD005F933A /* Notre Dame Marketplace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453A3F0E244105AD005F933A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Alvin Alaphat";
+				TargetAttributes = {
+					453A3F15244105AD005F933A = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 453A3F11244105AD005F933A /* Build configuration list for PBXProject "Notre Dame Marketplace" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 453A3F0D244105AD005F933A;
+			productRefGroup = 453A3F17244105AD005F933A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453A3F15244105AD005F933A /* Notre Dame Marketplace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453A3F14244105AD005F933A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453A3F25244105B1005F933A /* Assets.xcassets in Resources */,
+				453A3F322441066C005F933A /* LaunchScreen.storyboard in Resources */,
+				453A3F5024413606005F933A /* SwiftProtobuf.xcconfig in Resources */,
+				453A3F3024410635005F933A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97BF7BDE2B8ACCB0592DA9BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notre Dame Marketplace/Pods-Notre Dame Marketplace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notre Dame Marketplace/Pods-Notre Dame Marketplace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notre Dame Marketplace/Pods-Notre Dame Marketplace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98043E883C629605CDF93022 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notre Dame Marketplace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453A3F12244105AD005F933A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453A3F34244133E2005F933A /* ZerothViewController.swift in Sources */,
+				453A3F3C2441342F005F933A /* MessageViewController.swift in Sources */,
+				453A3F4024413440005F933A /* ItemController.swift in Sources */,
+				453A3F20244105AD005F933A /* SecondViewController.swift in Sources */,
+				453A3F3824413412005F933A /* RegisterViewController.swift in Sources */,
+				453A3F4224413447005F933A /* BuyViewController.swift in Sources */,
+				453A3F362441340A005F933A /* SellViewController.swift in Sources */,
+				453A3F3A2441341C005F933A /* PostItemController.swift in Sources */,
+				453A3F1E244105AD005F933A /* FirstViewController.swift in Sources */,
+				453A3F1A244105AD005F933A /* AppDelegate.swift in Sources */,
+				453A3F3E24413437005F933A /* LoginViewController.swift in Sources */,
+				453A3F1C244105AD005F933A /* SceneDelegate.swift in Sources */,
+				453A3F4F24413606005F933A /* SwiftProtobuf-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		453A3F2A244105B1005F933A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		453A3F2B244105B1005F933A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453A3F2D244105B1005F933A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7A1E8AE129D094DE661EE5 /* Pods-Notre Dame Marketplace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z798GVLA2Q;
+				INFOPLIST_FILE = "Notre Dame Marketplace/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alvinalaphat.Notre-Dame-Marketplace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Notre Dame Marketplace/Notre Dame Marketplace-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		453A3F2E244105B1005F933A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F9CBCFC7D1BBD9E53E72E7 /* Pods-Notre Dame Marketplace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z798GVLA2Q;
+				INFOPLIST_FILE = "Notre Dame Marketplace/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alvinalaphat.Notre-Dame-Marketplace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Notre Dame Marketplace/Notre Dame Marketplace-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453A3F11244105AD005F933A /* Build configuration list for PBXProject "Notre Dame Marketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453A3F2A244105B1005F933A /* Debug */,
+				453A3F2B244105B1005F933A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453A3F2C244105B1005F933A /* Build configuration list for PBXNativeTarget "Notre Dame Marketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453A3F2D244105B1005F933A /* Debug */,
+				453A3F2E244105B1005F933A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453A3F0E244105AD005F933A /* Project object */;
+}
